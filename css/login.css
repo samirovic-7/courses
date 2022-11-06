@@ -1,0 +1,92 @@
+.main_log {
+    margin: 2% 0%;
+    padding: 6% 0%;
+    min-height: 200px;
+    background-image: url(../gifs/labtop/labtop6.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.main {
+    position: relative;
+    width: 40%;
+    left: 16%;
+    box-shadow: 0px 0px 1px 0px black;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
+.input {
+    background-color: rgb(227, 225, 225);
+}
+
+.input_sign {
+    margin-bottom: 2%;
+}
+
+.check {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 110%;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 45%;
+    margin: 5% auto 0%;
+    text-align: center;
+}
+
+.A {
+    text-decoration: none;
+    color: black;
+}
+
+.select {
+    min-width: 15%;
+    border-radius: 20px;
+    padding: .6% .4%;
+    border: none;
+    box-shadow: 0px 0px 50px 1px rgb(214, 214, 214) inset;
+}
+
+.allCheckBody {
+    background-image: url(../gifs/learning1.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 50%;
+}
+
+.allCheckBody2 {
+    margin: 4% 0%;
+    background-image: url(../gifs/learning5.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 48%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.session {
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 22px 6px rgb(143 197 143) inset;
+    padding: 1px;
+    text-align: center;
+    font-family: monospace;
+}

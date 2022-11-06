@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #4f546c;
+    font-size: .9rem;
+    background-color: #eeecec;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px #e1e5ee;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    overflow: hidden;
+}
+
+table thead {
+    box-shadow: 0 0 10px 13px #9bc0a2 inset;
+    color: black;
+}
+
+table th {
+    padding: 1rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table td {
+    overflow: hidden;
+    font-size: 100%;
+    height: 100px;
+}
+
+table td:hover {
+    transform: scale(1.4);
+    transition: 1s;
+    font-size: 50%;
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}
+
+table a {
+    text-decoration: none;
+    color: #2962ff;
+}
+
+table .status {
+    border-radius: 0.2rem;
+    background-color: red;
+    padding: 0.2rem 1rem;
+    text-align: center;
+}
+
+table .status-pending {
+    background-color: #fff0c2;
+    color: #a68b00;
+}
+
+table .status-paid {
+    background-color: #c8e6c9;
+    color: #388e3c;
+}
+
+table .amount {
+    text-align: right;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(212, 221, 210);
+}
+
+.table {
+    width: 88%;
+    position: relative;
+    left: -18%;
+    bottom: 400px;
+}
+
+.Add_Data {
+    padding: 1.1%;
+    float: left;
+    position: relative;
+    bottom: 60px;
+    left: 115px;
+}
+
+.navbar {
+    position: relative;
+    background: #009942;
+    color: white;
+}

@@ -1,0 +1,310 @@
+.navbarFix {
+    position: fixed;
+    margin-bottom: .5%;
+}
+
+.wall {
+    position: relative;
+    top: 18px;
+    width: 2px;
+    height: 40px;
+    margin: 0px 4px;
+    background-color: black;
+    display: inline-block;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.cardTop {
+    width: 100%;
+    height: 560px;
+    position: relative;
+    color: white;
+}
+
+.card-img {
+    height: 100%;
+    background-image: url(../gifs/learning2.gif);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: .9;
+}
+
+.opacity {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../gifs/sky/sky5.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.ImgOverlay {
+    width: 38%;
+    height: 260px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.popular_Cou {
+    width: 95%;
+    min-height: 600px;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.popular_card {
+    width: 90%;
+    min-height: 490px;
+    margin: 1% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.card_pop {
+    margin: .5% 1%;
+    cursor: pointer;
+}
+
+.card_pop:hover {
+    box-shadow: 0px 0px 90px 0px inset rgb(72, 197, 72);
+    transition: 1s;
+}
+
+.img_pop {
+    height: 77%;
+    background-image: url(../gifs/sky/sky5.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fin_pop {
+    width: 80%;
+    margin: 1% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+}
+
+.card-body-pop {
+    box-shadow: 0px 0px 160px 1px inset rgb(72, 197, 72);
+}
+
+.current_Cou {
+    width: 95%;
+    min-height: 600px;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.current_card {
+    width: 90%;
+    min-height: 350px;
+    margin: 1% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 40px;
+}
+
+.accordion_on {
+    width: 100%;
+    margin: 2% 0px;
+}
+
+.accordion_link {
+    text-decoration: none;
+}
+
+.accordion-button::after {
+    width: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: rgba(189, 245, 189, .5);
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    font-size: 100%;
+}
+
+.Tap_Cou {
+    /* width: 95%; */
+    min-height: 600px;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.Tap_allcard {
+    /* width: 100%; */
+    min-height: 500px;
+    margin: 1% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 40px;
+}
+
+.myTabContent_card {
+    min-height: 500px;
+    margin: 1% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.Tap_card {
+    /* height: 390px; */
+    margin: 1% 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 0px rgb(205, 204, 204);
+    padding: .5%;
+}
+
+.card-img-tap {
+    width: 99%;
+    height: 200px;
+}
+
+.card-footer-tap {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    border: none;
+}
+
+.card-footer-tap_one {
+    width: 49%;
+    height: 100%;
+    line-height: 50%;
+    font-size: 92%;
+    color: gray;
+    background-color: white;
+    border: none;
+}
+
+.card-footer-tap_two {
+    height: 100%;
+    line-height: 50%;
+    font-size: 100%;
+    text-align: center;
+    color: gray;
+    background-color: white;
+    border: none;
+}
+
+.star {
+    color: goldenrod;
+    font-size: 100%;
+}
+
+.card-footer-tap_three {
+    height: 40px;
+    color: gray;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.card-footer-inst {
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+
+.img_card_ins {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.card-footer-infor {
+    width: 77%;
+    min-height: 20px;
+    margin: auto;
+}
+
+.footer {
+    margin: 0% auto;
+    box-shadow: 0px 0px 360px 0px rgba(12, 397, 12, 1) inset;
+}
+
+.footer_bott {
+    height: 0px;
+}
+
+.sec_one_one {
+    min-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+ ::-webkit-scrollbar {
+    width: 7px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, rgb(42, 38, 38));
+}
+
+.session {
+    width: 10%;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 22px 6px rgb(143 197 143) inset;
+    padding: 1px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.HH2 {
+    margin: auto;
+}
+
+.loguot {
+    border: none;
+    background: none;
+    padding: -1%;
+    margin-left: -2%;
+    color: gray;
+}
